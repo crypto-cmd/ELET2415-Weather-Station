@@ -42,6 +42,7 @@ def update_radar():
             Mqtt.publish("620164974_sub", mongo.dumps(jsonDoc))
 
             print(f"MQTT: {jsonDoc}")
+            
 
             item = mongo.insertData(jsonDoc)
             if item:

@@ -37,22 +37,22 @@
 #define soilPin 32
 // #define vibrationPin 32
 
-#define DHTPIN 26
+#define DHTPIN 4
 #define DHTTYPE DHT11
 
-#define TFT_CS 19
-#define TFT_RST 18
-#define TFT_DC 5
-#define TFT_MOSI 17
-#define TFT_SCK 16
-#define TFT_MISO 4
+#define TFT_CS 5
+#define TFT_RST 16
+#define TFT_DC 17
+#define TFT_MOSI 23
+#define TFT_SCK 18
+#define TFT_MISO 19
 
 #define BOX_WIDTH 50
 #define BOX_HEIGHT 50
 #define SPACING 5
 #define MARGIN 10
 
-#define DRY 2900 // The experimental value of DRY AIR
+#define DRY 2700 // The experimental value of DRY AIR
 #define WET 1200 // The experimental value of 100% WET
 
 // IMPORT FONTS FOR TFT DISPLAYM
